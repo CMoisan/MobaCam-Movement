@@ -8,5 +8,14 @@ I used C# and Unity3D Environnement
 
 I needed to make a lockable/unlockable camera which focus on the player object.
 ![](lockdelock.gif)
-The camera also needed the ability to zoom/dezoom.
-It needed to keep its recoil when the locked camera was blocked by the map edge
+The camera also needed the ability to zoom/dezoom and keep a constant recoil.
+![](zoomdezoom.gif)
+It needed to remember its recoil when the locked camera was blocked by the map's edge to keep the player in the center of the screen when leaving the edge of the map.
+![](edgetest.gif)
+
+#2.Movement system
+
+I wanted to make the player movable by right-clicking on the location we wanted to move to.
+![](moving.gif)
+I used a navmesh to determine which surface was walkable
+![](navmesh.png)
